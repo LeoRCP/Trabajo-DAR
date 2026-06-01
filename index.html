@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ejercicios JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Ejercicios JavaScript</h1>
+
+  <div class="container">
+
+    <!-- 1. Palíndromo -->
+    <div class="card">
+      <span class="tag">Ejercicio 1</span>
+      <h2>Detectar si una cadena es un palíndromo</h2>
+      <input type="text" id="palindromoInput" placeholder="Ej: Anita lava la tina" />
+      <button onclick="comprobarPalindromo()">Comprobar</button>
+      <div id="palindromoResultado" class="resultado"></div>
+    </div>
+
+    <!-- 2. Mayor de dos números -->
+    <div class="card">
+      <span class="tag">Ejercicio 2</span>
+      <h2>Indicar cuál de dos números es mayor</h2>
+      <input type="number" id="num1" placeholder="Primer número" />
+      <input type="number" id="num2" placeholder="Segundo número" />
+      <button onclick="compararNumeros()">Comparar</button>
+      <div id="mayorResultado" class="resultado"></div>
+    </div>
+
+    <!-- 3. Vocales que aparecen -->
+    <div class="card">
+      <span class="tag">Ejercicio 3</span>
+      <h2>Mostrar las vocales que aparecen en una frase</h2>
+      <textarea id="fraseVocales" placeholder="Escribe una frase..."></textarea>
+      <button onclick="mostrarVocales()">Mostrar vocales</button>
+      <div id="vocalesResultado" class="resultado"></div>
+    </div>
+
+    <!-- 4. Contar vocales -->
+    <div class="card">
+      <span class="tag">Ejercicio 4</span>
+      <h2>Contar cuántas veces aparece cada vocal</h2>
+      <textarea id="fraseConteo" placeholder="Escribe una frase..."></textarea>
+      <button onclick="contarVocales()">Contar vocales</button>
+      <div id="conteoResultado" class="resultado"></div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
