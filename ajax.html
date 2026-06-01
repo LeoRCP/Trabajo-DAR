@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Práctica AJAX</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Práctica AJAX</h1>
+
+  <div class="card">
+    <h2>Descargar contenido mediante AJAX</h2>
+
+    <label>URL a consultar:</label>
+    <input type="text" id="urlInput">
+
+    <button onclick="realizarPeticion()">Mostrar Contenidos</button>
+
+    <h3>Estados de la petición</h3>
+    <div id="estado" class="resultado"></div>
+
+    <h3>Código de estado</h3>
+    <div id="codigo" class="resultado"></div>
+
+    <h3>Cabeceras HTTP de la respuesta</h3>
+    <div id="cabeceras" class="resultado"></div>
+
+    <h3>Contenidos</h3>
+    <div id="contenido" class="resultado"></div>
+  </div>
+
+  <script src="ajax.js"></script>
+</body>
+</html>
